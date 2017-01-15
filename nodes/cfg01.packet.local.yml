@@ -1,0 +1,13 @@
+classes:
+- cluster.packet.infra.config
+parameters:
+ _param:
+   linux_system_codename: xenial
+   reclass_data_revision: master
+   salt_master_environment_revision: master
+   salt_master_environment_repository: "https://github.com/tcpcloud"
+ linux:
+   system:
+     name: cfg01
+     domain: packet.local
+
