@@ -20,17 +20,17 @@ parameters:
     #linux_repo_refresh_db: True
 
     # infra service addresses
-    infra_config_address: 10.167.4.90
-    infra_config_deploy_address: 10.167.5.90
+    fuel_config_address: 10.167.4.90
+    fuel_config_deploy_address: 10.167.5.90
 
-    infra_compute_address: 10.167.4.240
-    infra_compute_node01_address: 10.167.4.241
-    infra_compute_node02_address: 10.167.4.242
-    infra_compute_node03_address: 10.167.4.243
+    fuel_compute_address: 10.167.4.240
+    fuel_compute_node01_address: 10.167.4.241
+    fuel_compute_node02_address: 10.167.4.242
+    fuel_compute_node03_address: 10.167.4.243
 
-    infra_compute_node01_deploy_address: 10.167.5.241
-    infra_compute_node02_deploy_address: 10.167.5.242
-    infra_compute_node03_deploy_address: 10.167.5.243
+    fuel_compute_node01_deploy_address: 10.167.5.241
+    fuel_compute_node02_deploy_address: 10.167.5.242
+    fuel_compute_node03_deploy_address: 10.167.5.243
 
     # openstack service addresses
     openstack_proxy_address: 10.167.4.80
@@ -93,10 +93,10 @@ parameters:
     openstack_compute_node05_control_address: 10.167.4.105
 
     ##CI/CD
-    #infra_integration_node01_single_address: 
-    #infra_version_control_node01_single_address: 
-    #infra_storage_node01_single_address: 
-    #infra_benchmark_node01_single_address: 
+    #fuel_integration_node01_single_address: 
+    #fuel_version_control_node01_single_address: 
+    #fuel_storage_node01_single_address: 
+    #fuel_benchmark_node01_single_address: 
 
     ##FIXME if ntp defined
     #ntp_strata_host1: 
